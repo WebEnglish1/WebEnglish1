@@ -100,12 +100,12 @@ body {
     top: 78px;
     z-index: 99;
     width: 100%;
-    background-color: #fff;
+    background-color: #000000 !important;
   }
 
   .main_menu .nav-item {
     padding: 5px 10px 5px 15px;
-    background-color: #fff;
+    background-color: #000000 !important;
   }
 
   .main_menu .navbar-nav .nav-link:hover {
