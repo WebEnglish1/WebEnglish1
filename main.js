@@ -90,14 +90,6 @@ $ = function(id) {
 	  $(id).style.display ='none';
   }
 
-  // Get the video
-var video = document.getElementById("myVideo");
 
-// web cam
-var video = document.getElementById('video');
-if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
- navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
- video.src = window.URL.createObjectURL(stream);
- video.play();
- });
+
 }
